@@ -8,9 +8,14 @@ from config import config
 def validate_folder():
     """Validate if folder exists"""
 
+    # validate if folder not exists
     if not os.path.exists(config["path_folder_results"]):
+
+        # create folder
         os.makedirs(config["path_folder_results"])
         print(f"1. Folder report created: {config['path_folder_results']}")
+
+    # folder exists
     else:
         print(f"1. Folder report exists: {config['path_folder_results']}")
 

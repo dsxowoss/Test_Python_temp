@@ -10,8 +10,13 @@ def app():
     """Main function"""
 
     try:
+        # validate if exist folder
         validate_folder()
+
+        # merge files txt in a single file
         merge_files_txt()
+
+        # convert file txt to pdf
         convert_txt_to_pdf()
 
         # get input email
