@@ -12,22 +12,22 @@ El codigo esta diseñado para funcionar con Python 9 en adelante.
 - Navegar a la ruta del proyecto clonado.
 - (Opcional) Crear un entorno virtual.
 ```bash
-  py -m venv venv
+py -m venv venv
 ```
 - Activar el entorno virtual.
 ```bash
-  .\venv\Scripts\activate
+.\venv\Scripts\activate
 ```
 - Importar modulos desde un archivo de requerimientos.
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Ejecución
 
 - Ejecutar el comando
 ```bash
-  python app.py
+python app.py
 ```
 - En la consola se le solicitara un correo, donde se le enviaran los resultados del test.
 - De existir cualquier error se desplegara el mensaje en la consola.
