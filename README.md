@@ -12,7 +12,7 @@ El codigo esta diseñado para funcionar con Python 9 en adelante.
 - Navegar a la ruta del proyecto clonado.
 - (Opcional) Crear un entorno virtual.
 ```bash
-py -m venv venv
+py -3.9 -m venv venv
 ```
 - Activar el entorno virtual.
 ```bash
