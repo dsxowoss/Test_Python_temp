@@ -1,12 +1,12 @@
 
 # Test Python
 
-El proyecto se encarga de obtener una carpeta de archivos de texto (txt), agruparlos en uno solo, convertirlo en un archivo PDF y enviarlo via correo.
+El proyecto se encarga de obtener una carpeta de archivos de texto (TXT), agruparlos en uno solo, convertirlo en un archivo PDF y enviarlo vía correo.
 
 
 ## Instalación
 
-El codigo esta diseñado para funcionar con Python 9 en adelante.
+El código está diseñado para funcionar con Python 9 en adelante.
 
 - Clonar el repositorio de GitHub.
 - Navegar a la ruta del proyecto clonado.
@@ -18,7 +18,7 @@ py -3.9 -m venv venv
 ```bash
 .\venv\Scripts\activate
 ```
-- Importar modulos desde un archivo de requerimientos.
+- Importar módulos desde un archivo de requerimientos.
 ```bash
 pip install -r requirements.txt
 ```
@@ -29,5 +29,8 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-- En la consola se le solicitara un correo, donde se le enviaran los resultados del test.
-- De existir cualquier error se desplegara el mensaje en la consola.
+- Se verificará que la carpeta "report" exista dentro del proyecto, de no existir se creará.
+- Se creará un solo archivo de texto con toda la información de los demás archivos.
+- Se convertirá el archivo de texto en un archivo PDF.
+- En la consola se le solicitará un correo, donde se le enviaran los resultados del test (PDF).
+- De existir cualquier error se desplegará el mensaje en la consola.
